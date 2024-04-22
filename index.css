@@ -1,0 +1,45 @@
+body{
+    background-color: skyblue;
+    padding: 0px 100px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    margin: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.nav-btn button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.nav-btn button:hover{
+    background-color: white;
+    color: blue;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
